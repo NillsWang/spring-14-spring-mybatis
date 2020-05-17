@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+	<!DOCTYPE configuration
+ 		PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+ 		"http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+
+	<!-- 定义类别名 -->
+	<typeAliases>
+		<!-- 系统自动将该包下类的简单类名当作别名 -->
+		<package name="com.wmz.bean"/>
+	</typeAliases>
+		
+	<!-- 注册映射文件 -->
+	<mappers>
+		<!-- <mapper resource="com/wmz/dao/StudentDao.xml"/> -->
+		<package name="com.wmz.dao"/>
+	</mappers>
+	
+</configuration>
